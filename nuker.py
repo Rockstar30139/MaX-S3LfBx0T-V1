@@ -164,5 +164,5 @@ async def wizz(ctx, amount: int = 5):
 
 
 bot.remove_command("help")
-bot.run("MTEyMjQyODUzNDg5MjI4NTk5Mw.Gp1QYV.j25697-vixmGY-XKAhpknwpesYgcKR6BFid9eI",bot=False)
+bot.run("MTExMTUyMTAxNjc5NjE2ODE5Mg.G8zXP2.tN7w98GGyCVRo92rBzpuS7IwdcFMyzSgMrFT30",bot=False)
 

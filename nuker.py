@@ -163,5 +163,5 @@ async def wizz(ctx, amount: int = 5):
 
 
 bot.remove_command("help")
-bot.run("token_here",bot=False)
+bot.run("MTEyMjQyODUzNDg5MjI4NTk5Mw.GaODLL.kjPrkHaL2UIW3jSuL-WAkCr6AOvrz9iPxED2SA",bot=False)
 
